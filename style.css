@@ -1,3 +1,128 @@
-body, html {
-    background-color: #F2E8CF;
+body {
+    background-color: #FEFAE0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contmain {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #283618;
+    margin-top: -10px;
+    margin-bottom: -20px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    color: #FEFAE0;
+}
+
+.header ul, a{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-left: auto;
+    color: #FEFAE0;
+}
+
+.header li {
+    padding: 0 12px;
+    font-size: 18px;
+}
+
+.header2 {
+    background-color: #283618;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: row;
+    padding: 80px 80px;
+    justify-content: center;
+    align-items: center;
+    color: #FEFAE0;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.header2 p {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.welcimg {
+    display: flex;
+    width: 400px;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+}
+
+.welcimg img {
+    border-radius: 8px;
+}
+
+.welctext {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 80px;
+    flex-wrap: wrap;
+}
+
+.welctext a {
+    text-decoration: underline;
+    color: #FEFAE0;
+}
+
+.main {
+    background-color: #FEFAE0;
+    color: #283618;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 900;
+    height: 420px;
+    padding-bottom: 20px;
+}
+
+.thumb {
+    width:220px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cont1 {
+    display: flex;
+}
+
+.cont1img {
+    width: 220px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0 40px;
+}
+
+.testimonial {
+    height: 420px;
+    background-color: rgba(96, 108, 56, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.testimonial p {
+    font-size: 36px;
+    font-style: italic;
+    color: #283618;
+}
+
+.cite {
+    align-self: flex-end;
 }
