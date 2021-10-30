@@ -126,3 +126,49 @@ body {
 .cite {
     align-self: flex-end;
 }
+
+.abonnez {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #283618;
+
+}
+
+.abbutton {
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+}
+
+#abbutton {
+    width: 105px;
+    height: 35px;
+    background-color: #FEFAE0;
+    color: #283618;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 6px;
+    border: #283618 solid 2px;
+    box-shadow: 2px 2px #606C38;
+}
+
+#abbutton:hover {
+    background-color: #DDA15E;
+    border: #606C38;
+    box-shadow: 2px 2px #BC6C25;
+}
+
+.copy {
+    background: #283618;
+    color: #FEFAE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    margin-bottom: -10px;
+}
